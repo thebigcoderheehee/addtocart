@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Shop</h1>
+        <div class="cart">
+            Cart: <span id="cart-count">0</span>
+        </div>
+    </header>
+
+
+    <div class="product">
+        <img src="https://images.solecollector.com/complex/image/upload/vlaaw173ydtewl9t3d1s.jpg" alt="Product Image" class="product-image">
+        <h2>Curry MVP Sneakers</h2>
+        <p>Price: $287</p>
+        <button onclick="addtocart('Curry MVP Sneakers','https://images.solecollector.com/complex/image/upload/vlaaw173ydtewl9t3d1s.jpg','$287')">Add To Cart</button>
+    </div>
+
+
+    <div class="cart-section">
+        <h2>Cart Item</h2>
+        <div id="cart-items">
+            <p>Your cart is empty!</p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
